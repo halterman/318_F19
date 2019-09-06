@@ -69,7 +69,7 @@ void count_permutation_frequencies(std::function<void(std::vector<int>&)> perm,
 	// Indicate which permutation we're using
 	std::cout << message << '\n';
 
-	// Run 1,000,000 times
+	// Call the permutation function 'runs' times 
 	for (int i = 0; i < runs; i++) {  
 		// Make a copy of the original vector
 		working = original;
